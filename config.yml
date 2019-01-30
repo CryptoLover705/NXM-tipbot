@@ -1,0 +1,25 @@
+# MongoDB connection information
+database:
+  host: "127.0.0.1"
+  port: 27017
+  user: ""
+  password: ""
+  db: "nxstream_tipbot"
+# Discord Bot user token
+discord:
+  token: ""
+# walletd connection information
+wallet:
+  host: "127.0.0.1"
+  port: "8070"
+# daemon rpc connection information
+daemon:
+  host: "127.0.0.1"
+  port: "11202"
+  
+# Wrkz is 4-digit, 10000
+tx_fee: 10000
+min_tx_amount: 100
+max_tx_amount: 20000000
+# How many seconds between balance refresh with walletd
+wallet_balance_update_interval: 30
